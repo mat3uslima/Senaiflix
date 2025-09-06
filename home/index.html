@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senaiflix</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="../assets/styles/global.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="index.html">Senaiflix</a>
+        <img id="menu-btn" class="hamburguer" src="../assets/icons/material-symbols_menu (1).png" alt="">
+        <nav>
+            <a href="#">INICIO</a>
+            <a href="#titulo-filmes">FILMES</a>
+            <a href="#titulo-series">SERIES</a>
+        </nav>
+        <nav class="menu-mobile" id="menu-mobile">
+            <a href="#">INICIO</a>
+            <a href="#titulo-filmes">FILMES</a>
+            <a href="#titulo-series">SERIES</a>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="div-banner">
+                <h2>ASSISTA AGORA!</h2>
+                <P>Ao saber que em cancer, um professor passa a frabricar Maconha...</P>
+            </div>
+        </section>
+        <div class="inputs">
+            <div class="pesquisa">
+                <label for="pesquisar">Pesquise por filmes e/ou Series:</label>
+                <input type="text" placeholder="Insira um titulo" id="pesquisar">
+            </div>
+            <div class="filtro">
+                <label for="genero">Filtrar por genero</label>
+                <select name="genero" id="genero">
+                    <option selected value="">Selecione um genero:</option>
+                    <option value="Drama">Drama</option>
+                    <option value="Romace">Acao</option>
+                    <option value="Terro">Terro</option>
+                    <option value="Ficcao Cientifica">Ficcao Cientifica</option>
+                    <option value="Thriller">Thriller</option>
+                    <option value="Acao">Acao</option>
+                    <option value="Comedia">Comedia</option>
+                    <option value="Fantasia">Fantasia</option>
+                    <option value="Aventura">Aventura</option>
+                    <option value="Crime">Crime</option>
+                    <option value="Miterio">Misterio</option>
+                    <option value="Kids">Kids</option>
+                </select>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
