@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Senaiflix</title>
+    <title>SENAIFLIX</title>
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="../assets/styles/global.css">
 </head>
 <body>
     <header class="cabecalho">
-        <a href="index.html">Senaiflix</a>
-        <img id="menu-btn" class="hamburguer" src="../assets/icons/material-symbols_menu (1).png" alt="">
+        <a href="index.html">SENAIFLIX</a>
+        <img id="menu-btn" class="hamburger" src="../assets/icons/material-symbols_menu (1).png" alt="">
         <nav>
             <a href="#">INICIO</a>
             <a href="#titulo-filmes">FILMES</a>
@@ -26,7 +26,7 @@
         <section class="banner">
             <div class="div-banner">
                 <h2>ASSISTA AGORA!</h2>
-                <P>Ao saber que em cancer, um professor passa a frabricar Maconha...</P>
+                <P>Ao saber que tem cancer, um professor passa a fabricar Maconha...</P>
             </div>
         </section>
         <div class="inputs">
@@ -39,7 +39,7 @@
                 <select name="genero" id="genero">
                     <option selected value="">Selecione um genero:</option>
                     <option value="Drama">Drama</option>
-                    <option value="Romace">Acao</option>
+                    <option value="Romance">Romance</option>
                     <option value="Terro">Terro</option>
                     <option value="Ficcao Cientifica">Ficcao Cientifica</option>
                     <option value="Thriller">Thriller</option>
@@ -48,11 +48,43 @@
                     <option value="Fantasia">Fantasia</option>
                     <option value="Aventura">Aventura</option>
                     <option value="Crime">Crime</option>
-                    <option value="Miterio">Misterio</option>
+                    <option value="Misterio">Misterio</option>
                     <option value="Kids">Kids</option>
                 </select>
+                <button id="limpar-filtro" class="limpar-filtros">Limpar Filtro</button>
             </div>
         </div>
+        <section class="filmes-series">
+            <h2 class="titulo-filmes">Filmes</h2>
+            <div id="filmes-container" class="card-container">
+                <a href="../detalhes-do-filme/" class="card"></a>
+                <a href="../detalhes-do-filme/" class="card"></a>
+                <a href="../detalhes-do-filme/" class="card"></a>
+                <a href="../detalhes-do-filme/" class="card"></a>
+                <a href="../detalhes-do-filme/" class="card"></a>
+                <a href="../detalhes-do-filme/" class="card"></a>
+            </div>
+        </section>
+        <section class="filmes-series">
+            <h2 class="titulo-series">Series</h2>
+            <div id="series-container" class="card-container">
+                <a href="../detalhes-do-filme/" class="card"></a>
+                <a href="../detalhes-do-filme/" class="card"></a>
+                <a href="../detalhes-do-filme/" class="card"></a>
+                <a href="../detalhes-do-filme/" class="card"></a>
+                <a href="../detalhes-do-filme/" class="card"></a>
+                <a href="../detalhes-do-filme/" class="card"></a>
+            </div>
+        </section>
     </main>
+    <footer>
+        <p>Nos sigam nas redes sociais</p>
+        <div class="imgs">
+            <img src="../assets/imgs/mdi_twitter.svg" alt="">
+            <img src="../assets/imgs/ri_instagram-fill.svg" alt="">
+            <img src="../assets/imgs/mdi_youtube.svg" alt="">
+        </div>
+    </footer>
 </body>
+<script src="../scripts/script.js"></script>
 </html>
